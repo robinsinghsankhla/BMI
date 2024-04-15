@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:id="@+id/llMain">
+    <EditText
+        android:id="@+id/ed_wt"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_edtWt"
+        android:ems="12"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/ed_HtFt"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_edtHtFt"
+        android:ems="12"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/ed_HtIn"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_edtHtIn"
+        android:ems="12"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btm_Calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generat"
+        android:backgroundTint="#370505"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txt_Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+
+
+</LinearLayout>
